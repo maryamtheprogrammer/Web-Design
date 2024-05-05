@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+}
+
+#header .arrow{
+    font-size: 30px;
+    color: grey;
+    opacity: 0.5;
+    margin: 30px;
+}
+
+#header .arrow:hover{
+    opacity: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#header ul{
+    margin: 30px;
+}
+
+#header ul li{
+    display: inline;
+    font-size: 25px;
+    margin-left: 12px;
+}
+
+#header ul li:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#header > i:last-child{
+    font-size: 20px;
+}
+
+#main-content{
+    margin-left: 90px;
+    margin-top: 90px;
+}
+
+#main-content h1{
+    font-size: 70px;
+}
+
+.images{
+    position: relative;
+    top: -26.1em;
+    left: 40em;
+}
+
+#sec2{
+    display: flex;
+}
+
+#sec2 .images > img{
+    margin-left: -2em;
+    position: relative;
+}
+
+#sec2 .images > img:first-child,
+#sec2 .images > img:nth-child(2){
+    height: 20em;
+    width: 18em;
+}
+
+#sec2 .images > img:last-child{
+    height: 20em;
+    width: 34.3em;
+    margin-top: -1em;
+}
+
+.designer{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    top: -30px;
+    left: 650px;
+    position: absolute;
+}
+
+.readBtn{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 2px 3px 5px grey;
+    padding: 5px;
+    width: 80px;
+    font-weight: bold;
+}
